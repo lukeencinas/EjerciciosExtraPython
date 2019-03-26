@@ -14,10 +14,14 @@
 #    print("tengo: "+ ls)
 
 
-asig = ['Mates', 'Frances', 'Lengua', 'Ingles']
-nota = []
-for i in asig:
-    n = input('Que nota has sacado para: '+ i)
-    nota.append(n)
-for i in range(len(asig)):
-    print("Has sacado ", nota[i], " en la asignatura ", asig[i])
+#asig = ['Mates', 'Frances', 'Lengua', 'Ingles']
+#nota = []
+#for i in asig:
+#    n = input('Que nota has sacado para: '+ i)
+#    nota.append(n)
+#for i in range(len(asig)):
+#    print("Has sacado ", nota[i], " en la asignatura ", asig[i])
+
+
+l = ["Lu",True,68,["Dos", False, 7]]
+print(l[:][3][2])
