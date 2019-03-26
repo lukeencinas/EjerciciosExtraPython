@@ -27,9 +27,16 @@
 #print(l[:][3][2])
 
 
-l1 = (1,2,3)
-l2 = (-1,0,2)
-producto = 0
-for i in range(len(l1)):
-    producto += l1[i]*l2[i]
-print(producto)
+#l1 = (1,2,3)
+#l2 = (-1,0,2)
+#producto = 0
+#for i in range(len(l1)):
+#    producto += l1[i]*l2[i]
+#print(producto)
+
+l1 = 5
+l2 = 2
+
+division = float(l1/l2)
+print(division)
+
