@@ -23,5 +23,13 @@
 #    print("Has sacado ", nota[i], " en la asignatura ", asig[i])
 
 
-l = ["Lu",True,68,["Dos", False, 7]]
-print(l[:][3][2])
+#l = ["Lu",True,68,["Dos", False, 7]]
+#print(l[:][3][2])
+
+
+l1 = (1,2,3)
+l2 = (-1,0,2)
+producto = 0
+for i in range(len(l1)):
+    producto += l1[i]*l2[i]
+print(producto)
